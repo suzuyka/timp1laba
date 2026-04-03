@@ -1,0 +1,38 @@
+{
+  "transactions": [
+    {
+      "id": "1",
+      "clientName": "Иванов Иван Иванович",
+      "amount": 150000,
+      "currency": "RUB",
+      "date": "2026-03-10",
+      "cardNumber": "****1234",
+      "riskLevel": "высокий",
+      "description": "Необычная сумма перевода ночью на иностранную карту",
+      "status": "на проверке"
+    },
+    {
+      "id": "3",
+      "clientName": "Сидорова Анна Сергеевна",
+      "amount": 250000,
+      "currency": "RUB",
+      "date": "2026-03-11",
+      "cardNumber": "****9999",
+      "riskLevel": "высокий",
+      "description": "Подозрительный перевод на криптокошелёк",
+      "status": "на проверке"
+    },
+    {
+      "id": "36d2",
+      "clientName": "Ионин Дэнчик Антонович",
+      "amount": 1200,
+      "currency": "RUB",
+      "date": "2026-03-11",
+      "cardNumber": "****1011",
+      "riskLevel": "низкий",
+      "description": "ошибка транзакции",
+      "status": "ложное срабатывание"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
